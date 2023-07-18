@@ -1,0 +1,95 @@
+#background {
+  /* background-image: url(https://spcwebsites.co.uk/wp-content/uploads/2019/04/web-developer.gif); */
+  /* background-size: 10% 600px; */
+  /* background-color: linear-gradient(to right, red, yellow); */
+  /* opacity: 0.9; */
+
+  /* background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(11, 11, 11, 0.5)
+    ), */
+  /* url(https://spcwebsites.co.uk/wp-content/uploads/2019/04/web-developer.gif); */
+  /* background-size: 100% 600px; */
+  /* background-position: top; */
+  /* background-attachment: scroll; */
+
+  background-color: black;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(5, 25, 252, 0.5)
+    ),
+    url(https://images.cdn2.stockunlimited.net/preview1300/dark-web-banner-design_1945948.jpg);
+  background-size: 100% 100%;
+  background-position: top;
+  /* background-attachment: scroll; */
+}
+#background h1 {
+  color: white;
+  position: relative;
+  top: 40%;
+  /* left: 30%; */
+  opacity: 1;
+  /* width: 30%; */
+  /* background-color: pink; */
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: black;
+}
+.navbar-collapse .nav-item a:hover {
+  color: blue;
+}
+
+#projects:hover {
+  animation: bordernew 8s 4s;
+  border-radius: 50% 0% 50% 0%;
+}
+#navbarSupportedContent a:hover {
+ background-color: white;
+ color: black;
+ border-radius: 30%;
+font-size: 23px;  
+/* animation-name: example; */
+/* animation-duration: 3s; */
+}
+#navbarSupportedContent a{
+  background-color: transparent;
+  color: white;
+}
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} */
+
+/* @keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+} */
+
+/* The element to apply the animation to */
+/* div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+} */
+
+/* @keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+} */
