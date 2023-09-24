@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  0%   {background-color:pink; left:0px; top:0px;}
+  25%  {background-color:yellow; }
+  50%  {background-color:orange; }
+  75%  {background-color:red; }
+  100% {background-color:lightgreen; left:500px; top:0px; transform:rotate(360deg);
+  
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div>
+<p>ANIMATION</p>
+</div>
+
+<p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
+
+</body>
+</html>
+

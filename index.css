@@ -35,7 +35,14 @@
   /* width: 30%; */
   /* background-color: pink; */
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Rajdhani", sans-serif;
+  /* font-weight: 900; */
+  text-shadow: 2px 2px 8px red;
+}
+.navbar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
 }
 a {
   text-decoration: none;
@@ -52,14 +59,21 @@ body {
   border-radius: 50% 0% 50% 0%;
 }
 #navbarSupportedContent a:hover {
- background-color: white;
- color: black;
- border-radius: 30%;
-font-size: 23px;  
-/* animation-name: example; */
-/* animation-duration: 3s; */
+  /* background-color: white; */
+  /* background-image: radial-gradient(red, yellow); */
+  color: white;
+  border: 2px solid white;
+  /* border-radius: 100%; */
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+
+  font-size: 23px;
+  /* animation-name: example; */
+  /* animation-duration: 3s; */
 }
-#navbarSupportedContent a{
+#navbarSupportedContent a {
   background-color: transparent;
   color: white;
 }
@@ -93,3 +107,12 @@ font-size: 23px;
   from {background-color: red;}
   to {background-color: yellow;}
 } */
+h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 900;}
+p {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 900;
+  /* line-height: 2rem; */
+}
+
